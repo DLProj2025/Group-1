@@ -45,7 +45,7 @@ This repository contains our experiments and improvements on the RemoteCLIP mode
 
 ---
 
-### 6. **`upscaling.ipynb`** *(To be uploaded)*
+### 6. **`upscaling.ipynb`** 
 - **Function**: Contains Real-ESRGAN code for upscaling cropped images.
 - **Used In**: RemoteCLIP_improvement2_group1.ipynb
 
