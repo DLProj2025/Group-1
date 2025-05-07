@@ -49,6 +49,12 @@ This repository contains our experiments and improvements on the RemoteCLIP mode
 - **Function**: Contains Real-ESRGAN code for upscaling cropped images.
 - **Used In**: RemoteCLIP_improvement2_group1.ipynb
 
+- 
+### 7. **`evaluation_metrics.ipynb`**
+- **Objective**: Originally intended to compute Recall@1, Recall@5, and Recall@10 as evaluation metrics.
+- **Issue**: Due to memory constraints and long processing time (12+ hours despite optimization), the computation could not be completed successfully.
+- **Outcome**: As a result, we used **top-2 accuracy** as our primary evaluation metric across all experiments.
+
 ---
 
 ## 📌 Summary
@@ -58,3 +64,6 @@ This project investigates how preprocessing techniques (like object-focused crop
 ---
 
 ## 🧑‍💻 Contributors
+
+Maham Waseem 
+Muhammad Ahmad
